@@ -1,0 +1,22 @@
+.clockpage {
+  margin: auto;
+  max-width: 300px;
+  min-width: 100px;
+  // background: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 36px;
+  padding: 25px;
+  font-weight: bold;
+  color: #fff;
+  // border-top: 10px solid #55c49f;
+  margin-top: 100px;
+  @media (width < 768px) {
+    margin-top: 25px;
+  }
+}
+#dayOfWeek {
+  display: block;
+  font-weight: normal;
+  font-size: 18px;
+}
