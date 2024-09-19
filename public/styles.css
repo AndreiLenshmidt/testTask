@@ -15,6 +15,7 @@ body {
 .wrapper {
   background-size: cover;
   height: 100vh;
+  background-position-x: right;
 }
 
 .wrapper-bkg1 {
