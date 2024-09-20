@@ -14,8 +14,12 @@ body {
 
 .wrapper {
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   background-position-x: right;
+}
+
+.wrap {
+  min-height: 100vh;
 }
 
 .wrapper-bkg1 {
@@ -98,12 +102,15 @@ body {
   opacity: 0;
   z-index: 1;
 }
+.list-task-box {
+  display: block;
+  width: 95%;
+}
 .list-task-text {
   text-overflow: ellipsis !important;
+  padding-left: 10px;
   overflow: hidden;
   display: block;
-  width: 98%;
-  padding-left: 10px;
 }
 .list-task-complite {
   text-decoration: line-through;
@@ -114,6 +121,10 @@ body {
 }
 .form-check-input {
   margin-top: 0;
+}
+.form-check-label {
+  display: block;
+  overflow: hidden;
 }
 
 .modal-show {

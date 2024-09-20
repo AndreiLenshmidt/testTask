@@ -15,7 +15,7 @@ const createListItem = (taskText) => {
             value=""
           />
           <label class="form-check-label" for="thirdCheckbox"
-            ><font style="vertical-align: inherit"
+            ><font class="list-task-box" style="vertical-align: inherit"
               ><font class="list-task-text">${taskText}</font></font
             ></label
           >
