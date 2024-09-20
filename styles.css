@@ -104,7 +104,6 @@ body {
 }
 .list-task-box {
   display: block;
-  width: 95%;
 }
 .list-task-text {
   text-overflow: ellipsis !important;
@@ -176,6 +175,7 @@ body {
   margin-bottom: 10px;
   display: flex;
   align-items: center;
+  padding-right: 35px;
   text-overflow: ellipsis !important;
 }
 
