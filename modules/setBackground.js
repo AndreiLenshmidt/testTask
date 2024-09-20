@@ -14,5 +14,5 @@ export function setBackground() {
 }
 
 const setBackgroundImage = (selector, bkg) => {
-  selector.className = `wrapper ${bkg}`;
+  selector.className = `wrap ${bkg}`;
 };
